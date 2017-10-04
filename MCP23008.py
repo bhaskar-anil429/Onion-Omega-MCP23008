@@ -14,7 +14,7 @@ while True:
         print "Turning all Relays ON"
         time.sleep(1)
         data = i2c.writeBytes(0x21, 0x09, value)
-        print "Turning all Relays OFF
+        print "Turning all Relays OFF"
         time.sleep(1)
         print "\n"
 
